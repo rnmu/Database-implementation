@@ -1,3 +1,6 @@
+CREATE DATABASE CompanyDB;
+USE CompanyDB;
+
 CREATE TABLE Department (
     DNUM INT PRIMARY KEY,
     DName VARCHAR(100) NOT NULL,
